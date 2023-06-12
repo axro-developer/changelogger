@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 <!-- CHANGELOGGER -->
 
+## [v0.8.1] - 2023-06-12
+
+### Bug fix (1 change)
+
+- Fixed environment
+
 ## [v0.8.0] - 2023-06-12
 
 ### New feature (1 change)
