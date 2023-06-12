@@ -1,5 +1,5 @@
 {
-    "name": "churchtools/changelogger",
+    "name": "axro/changelogger",
     "description": "CLI Tool for creating consistent and committable changelog entries.",
     "keywords": ["churchtools", "changelog", "console", "cli", "keepachangelog"],
     "homepage": "https://github.com/churchtools/changelogger",
@@ -17,6 +17,11 @@
         {
             "name": "Hans-Helge Buerger",
             "email": "hhbuerger@churchtools.de",
+            "role": "Developer"
+        },
+        {
+            "name": "Emre Eromay",
+            "email": "eeromay@axro.de",
             "role": "Developer"
         }
     ],
