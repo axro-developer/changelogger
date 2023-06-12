@@ -1,0 +1,57 @@
+{
+    "name": "churchtools/changelogger",
+    "description": "CLI Tool for creating consistent and committable changelog entries.",
+    "keywords": ["churchtools", "changelog", "console", "cli", "keepachangelog"],
+    "homepage": "https://github.com/churchtools/changelogger",
+    "license": "Apache-2.0",
+    "support": {
+        "issues": "https://github.com/churchtools/changelogger/issues",
+        "source": "https://github.com/churchtools/changelogger"
+    },
+    "authors": [
+        {
+            "name": "ChurchTools Innovations GmbH",
+            "email": "support@churchtools.de",
+            "role": "Company"
+        },
+        {
+            "name": "Hans-Helge Buerger",
+            "email": "hhbuerger@churchtools.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "laravel-zero/framework": "^8.9",
+        "mockery/mockery": "^1.4",
+        "phpunit/phpunit": "^9.5",
+        "symfony/yaml": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "@php application app:rename"
+        ],
+        "test": "phpunit --colors=always --testdox"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "bin": ["builds/changelogger"]
+}
