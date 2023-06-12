@@ -21,17 +21,17 @@ In the end, if a new version is built, _Changelogger_ takes all unreleased chang
 
 ## Installation
 
-This package requires PHP 7.3
+This package requires PHP 8.2
 You can require the package as a dev-dependency
 
 ```bash
-composer require --dev churchtools/changelogger
+composer require --dev axro/changelogger
 ```
 
 or install it globally.
 
 ```bash
-composer global require churchtools/changelogger
+composer global require axro/changelogger
 ```
 
 ## Usage
